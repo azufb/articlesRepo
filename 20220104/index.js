@@ -46,3 +46,8 @@ console.log(Math.floor(minusNum));
 // Math.trunc()メソッド
 console.log(Math.trunc(num));
 console.log(Math.trunc(minusNum));
+
+// Math.sign()メソッド
+console.log(Math.sign(num));
+console.log(Math.sign(minusNum));
+console.log(Math.sign(0));
