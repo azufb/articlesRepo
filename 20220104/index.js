@@ -36,3 +36,13 @@ console.log(typeof parseFloat(samplePoint));
 
 console.log(parseFloat(sampleStr));
 console.log(typeof parseFloat(sampleStr));
+
+let num = 123.5;
+let minusNum = -123.5;
+// Math.floor()メソッド
+console.log(Math.floor(num));
+console.log(Math.floor(minusNum));
+
+// Math.trunc()メソッド
+console.log(Math.trunc(num));
+console.log(Math.trunc(minusNum));
