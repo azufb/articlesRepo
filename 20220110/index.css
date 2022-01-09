@@ -1,0 +1,12 @@
+.box {
+  border: 1px solid black;
+  width: 25%;
+  padding: 0.5rem;
+}
+
+.box p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
